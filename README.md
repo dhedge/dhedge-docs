@@ -47,7 +47,7 @@ Here's the ABI for this function:
 ```
 
 Another call that the bot will most likely need is a current balance of the pool. Calling `getFundComposition()` will return three matching lists. 
-First list represents `assets` in the pool (sETH, sUSD, etc), second shows their corresponding balances, and last is current sUSD rate of the asset (only for the ones with non-zero balance). Here's the ABI:
+First list represents `assets` in the pool (sETH, sUSD, etc), second shows their corresponding `balances`, and last is current sUSD `rates` of the assets (only for the ones with non-zero balance). Here's the ABI:
 
 ```
 	{
